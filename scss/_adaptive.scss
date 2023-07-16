@@ -1,0 +1,295 @@
+@media (max-width: 1440px) and (min-width: 1024px) {
+	.intro {
+		&__text {
+			font-size: 52px;
+		}
+	}
+	.episodes{
+		&__block {
+			&__content {
+				&__text {
+					&-episode {
+						margin-top: 20px;
+					}
+					&-header {
+						font-size: 38px;
+						width: fit-content;
+					}
+					&-paragraph {
+						font-size: 18px;
+						margin-top: 4px;
+					}
+				}
+			}
+		}
+	}
+	.subscribe {
+		&-img {
+			translate: 0 25em;
+		}
+		&__content {
+			&__text {
+				&-header {
+					font-size: 48px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 1023px) and (min-width: 767px) {
+	.intro {
+		&__content {
+			flex-direction: column;
+			gap: 20px;
+		}
+		&__text {
+			margin: 0;
+		}
+	}
+	.episodes {
+		&__block {
+			&__content {
+				flex-direction: column;
+				align-items: center;
+				&__text {
+					margin-top: 20px;
+					width: 90%;
+					&-episode {
+						margin-top: 5px;
+					}
+					&-header {
+						margin-top: 5px;
+						font-size: 46px;
+						width: fit-content;
+					}
+					&-paragraph {
+						font-size: 18px;
+					}
+					&-button {
+						margin-top: 20px;
+						margin-left: auto;
+						margin-right: auto;
+					}
+				}
+			}
+		}
+	}
+	.about {
+		&__content {
+			margin-top: 100px;
+			flex-direction: column-reverse;
+			gap: 20px;
+			&__text{
+				&-imgContainer {
+					scale: 0.5;
+				}
+				&-paragraph {
+					width: 100%;
+				}
+			}
+		}
+	}
+	.subscribe {
+		&-img {
+			translate: 0 23em;
+		}
+		&__content {
+			margin-left: 20px;
+			margin-right: 20px;
+			padding: 40px;
+			&__text {
+				&-header {
+					font-size: 38px;
+				}
+			}
+			&__form {
+				width: 340px;
+			}
+		}
+	}
+	.reviews {
+		&__content {
+			&__el {
+				scale: 0.9;
+				width: 200px;
+				&-header{
+					font-size: 20px;
+				}
+				&-author {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+	footer {
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.footer {
+		&__logo{
+			&>svg {
+				width: 140px;
+			}
+		}
+		&__listenOn {
+			gap: 5px;
+		}
+	}
+}
+@media (max-width: 766px) {
+	.intro {
+		margin: 5px;
+		&__content {
+			flex-direction: column;
+			gap: 10px;
+		}
+		&__text {
+			margin: 0;
+			font-size: 40px;
+			width: fit-content;
+			&__listedOn {
+				padding: 0;
+				margin-top: 5px;
+			}
+		}
+	}
+	.episodes {
+		&__header {
+			margin-top: 50px;
+			margin-right: 20px;
+			margin-left: 20px;
+			&-header {
+				font-size: 24px;
+			}
+			&-button {
+				padding-top: 5px;
+				padding-bottom: 5px;
+				padding-left: 10px;
+				padding-right: 10px;
+				font-size: 12px;
+			}
+		}
+		&__block {
+			margin: 10px;
+			padding: 20px;
+			&__content {
+				flex-direction: column;
+				align-items: center;
+				&__text {
+					margin-top: 20px;
+					width: 90%;
+					&-episode {
+						margin-top: 5px;
+					}
+					&-header {
+						margin-top: 5px;
+						font-size: 32px;
+						width: fit-content;
+					}
+					&-paragraph {
+						font-size: 14px;
+					}
+					&-button {
+						margin-top: 20px;
+						margin-left: auto;
+						margin-right: auto;
+					}
+				}
+			}
+		}
+	}
+	.about {
+		&__content {
+			margin-top: 50px;
+			flex-direction: column-reverse;
+			gap: 20px;
+			&__text{
+				&__imgContainer {
+					scale: 0.8;
+					width: 50px;
+					height: 50px;
+				}
+				&-header {
+					font-size: 36px;
+				}
+				&-paragraph {
+					width: 100%;
+					font-size: 18px;
+				}
+			}
+			&-img {
+				width: 100%;
+			}
+		}
+	}
+	.subscribe {
+		&-img {
+			opacity: 0;
+		}
+		&__content {
+			margin-left: 20px;
+			margin-right: 20px;
+			padding: 30px;
+			flex-direction: column;
+			&__text {
+				width: auto;
+				&-header {
+					font-size: 38px;
+				}
+			}
+			&__form {
+				margin-top: 20px;
+				width: 340px;
+				&-input {
+					width: 75%;
+					height: 40px;
+					padding-left: 5px;
+					border-radius: 3px;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	.reviews {
+		&__content {
+			margin-top: 0;
+			margin-bottom: 0;
+			&__el {
+				scale: 0.9;
+				width: 200px;
+				&-header{
+					font-size: 20px;
+				}
+				&-author {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+	.footer {
+		&__logo{
+			width: 100%;
+			&>svg {
+				width: 140px;
+			}
+			&-links {
+				margin-top: 0;
+			}
+		}
+		&__listenOn {
+			opacity: 0;
+			width: 0;
+			height: 0;
+		}
+		&__links {
+			margin-left: auto;
+		}
+	}
+	footer {
+		flex-wrap: wrap;
+		gap: 30px;
+		font-size: 14px !important;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}

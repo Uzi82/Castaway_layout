@@ -1,0 +1,61 @@
+.subscribe {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: auto;
+	&-img {
+		position: absolute;
+		translate: 0 25em;
+	}
+	&__content {
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		background-color: black;
+		border-radius: 32px;
+		height: fit-content;
+		padding: 60px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		&__text {
+			display: flex;
+			flex-direction: column;
+			width: 35%;
+			&-news {
+				color: #118DA8;
+				font-size: 18px;
+			}
+			&-header {
+				font-size: 72px;
+				font-family: DM sans B, sans serif;
+			}
+		}
+		&__form {
+			display: flex;
+			flex-direction: column;
+			&-input {
+				height: 62px;
+				width: 450px;
+				margin-bottom: 20px;
+				border-radius: 6px;
+				padding-left: 20px;
+				font-size: 24px;
+				background-color: #191919;
+				color: rgba(255, 255, 255, 1);
+			}
+			&-sumbit {
+				margin-top: 15px;
+				width: fit-content;
+				background-color: #118DA8;
+				border-radius: 6px;
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				color: white;
+				font-size: 15px;
+			}
+		}
+	}
+}
